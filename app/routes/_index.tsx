@@ -17,13 +17,13 @@ export default function Index() {
           </h1>
           <div className="h-[144px] w-[434px]">
             <img
-              src="/logo-light.png"
-              alt="Remix"
+              src="/logo-light.svg"
+              alt="React Router"
               className="block w-full dark:hidden"
             />
             <img
-              src="/logo-dark.png"
-              alt="Remix"
+              src="/logo-dark.svg"
+              alt="React Router"
               className="hidden w-full dark:block"
             />
           </div>

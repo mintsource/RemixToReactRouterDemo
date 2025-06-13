@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 434 144" fill="none">
+  <!-- React Router Dark Logo -->
+  <g>
+    <!-- Router Icon -->
+    <path d="M40 30 L60 30 L60 50 L40 50 Z" fill="#64b5f6" stroke="#64b5f6" stroke-width="2"/>
+    <path d="M65 30 L85 30 L85 50 L65 50 Z" fill="#64b5f6" stroke="#64b5f6" stroke-width="2"/>
+    <path d="M40 55 L60 55 L60 75 L40 75 Z" fill="#64b5f6" stroke="#64b5f6" stroke-width="2"/>
+    <path d="M65 55 L85 55 L85 75 L65 75 Z" fill="#64b5f6" stroke="#64b5f6" stroke-width="2"/>
+    <path d="M90 40 L110 40 L110 60 L90 60 Z" fill="#90caf9" opacity="0.8"/>
+    
+    <!-- Connection lines -->
+    <path d="M62 40 L88 50" stroke="#bbb" stroke-width="2"/>
+    <path d="M62 65 L88 55" stroke="#bbb" stroke-width="2"/>
+    
+    <!-- React Router Text -->
+    <text x="130" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#fff">React Router</text>
+    <text x="130" y="70" font-family="Arial, sans-serif" font-size="14" fill="#ccc">Declarative routing for React</text>
+  </g>
+</svg>
