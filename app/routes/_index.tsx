@@ -1,9 +1,9 @@
-import type { MetaFunction } from "@remix-run/node";
+import type { MetaFunction } from "react-router";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "New React Router App" },
+    { name: "description", content: "Welcome to React Router!" },
   ];
 };
 
@@ -13,17 +13,17 @@ export default function Index() {
       <div className="flex flex-col items-center gap-16">
         <header className="flex flex-col items-center gap-9">
           <h1 className="leading text-2xl font-bold text-gray-800 dark:text-gray-100">
-            Welcome to <span className="sr-only">Remix</span>
+            Welcome to <span className="sr-only">React Router</span>
           </h1>
           <div className="h-[144px] w-[434px]">
             <img
               src="/logo-light.png"
-              alt="Remix"
+              alt="React Router"
               className="block w-full dark:hidden"
             />
             <img
               src="/logo-dark.png"
-              alt="Remix"
+              alt="React Router"
               className="hidden w-full dark:block"
             />
           </div>
@@ -55,7 +55,7 @@ export default function Index() {
 
 const resources = [
   {
-    href: "https://remix.run/start/quickstart",
+    href: "https://reactrouter.com/start/tutorial",
     text: "Quick Start (5 min)",
     icon: (
       <svg
@@ -76,8 +76,8 @@ const resources = [
     ),
   },
   {
-    href: "https://remix.run/start/tutorial",
-    text: "Tutorial (30 min)",
+    href: "https://reactrouter.com/start/framework",
+    text: "Framework Guide (30 min)",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -97,8 +97,8 @@ const resources = [
     ),
   },
   {
-    href: "https://remix.run/docs",
-    text: "Remix Docs",
+    href: "https://reactrouter.com/home",
+    text: "React Router Docs",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +117,7 @@ const resources = [
     ),
   },
   {
-    href: "https://rmx.as/discord",
+    href: "https://discord.gg/reactrouter",
     text: "Join Discord",
     icon: (
       <svg

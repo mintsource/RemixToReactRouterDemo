@@ -1,6 +1,6 @@
-# Welcome to Remix!
+# Welcome to React Router!
 
-- 📖 [Remix docs](https://remix.run/docs)
+- 📖 [React Router docs](https://reactrouter.com/home)
 
 ## Development
 
@@ -28,7 +28,7 @@ Now you'll need to pick a host to deploy it to.
 
 ### DIY
 
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
+If you're familiar with deploying Node applications, the built-in React Router app server is production-ready.
 
 Make sure to deploy the output of `npm run build`
 
@@ -38,3 +38,7 @@ Make sure to deploy the output of `npm run build`
 ## Styling
 
 This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+
+## Migration from Remix
+
+This project was successfully migrated from Remix 2.x to React Router 7.x following the [official migration guide](https://reactrouter.com/upgrading/remix).
