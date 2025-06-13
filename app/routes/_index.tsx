@@ -18,12 +18,12 @@ export default function Index() {
           <div className="h-[144px] w-[434px]">
             <img
               src="/logo-light.png"
-              alt="Remix"
+              alt="React Router"
               className="block w-full dark:hidden"
             />
             <img
               src="/logo-dark.png"
-              alt="Remix"
+              alt="React Router"
               className="hidden w-full dark:block"
             />
           </div>
